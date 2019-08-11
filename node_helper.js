@@ -1,4 +1,6 @@
-var NodeHelper = require("node_helper");
+const NodeHelper = require("node_helper");
+const exec = require("child_process").exec;
+
 module.exports = NodeHelper.create({
 
     // Create the timer object.
@@ -39,6 +41,6 @@ module.exports = NodeHelper.create({
     restart: function() {
         var now = new Date();
         console.error(now.toString() + ' - WatchDog: Heartbeat timeout. Frontend might have crashed. Exit now.');
-        process.exit(1);
+        exec('pm2 restart mm', null);
     }
 });
