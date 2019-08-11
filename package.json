@@ -1,0 +1,23 @@
+{
+  "name": "MMM-WatchDog",
+  "version": "1.0.1",
+  "description": "",
+  "main": "MMM-WatchDog.js",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fry0815/MMM-WatchDog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fry0815/MMM-WatchDog/issues"
+  },
+  "homepage": "https://github.com/fry0815/MMM-WatchDog#readme"
+}
