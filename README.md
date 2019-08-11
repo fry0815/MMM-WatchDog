@@ -10,9 +10,11 @@ In your terminal, go to your MagicMirror's Module folder:
 cd ~/MagicMirror/modules
 ````
 
-Clone this repository:
+Clone this repository and install:
 ````
 git clone https://github.com/MichMich/MMM-WatchDog.git
+cd MMM-Watchdog
+npm install
 ````
 
 Configure the module in your `config.js` file.
