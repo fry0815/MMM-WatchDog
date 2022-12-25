@@ -12,7 +12,7 @@ cd ~/MagicMirror/modules
 
 Clone this repository and install:
 ````
-git clone https://github.com/MichMich/MMM-WatchDog.git
+git clone https://github.com/fry0815/MMM-WatchDog.git
 cd MMM-Watchdog
 npm install
 ````
